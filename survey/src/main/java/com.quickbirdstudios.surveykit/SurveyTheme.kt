@@ -8,5 +8,6 @@ data class SurveyTheme(
     @ColorInt val themeColorDark: Int,
     @ColorInt val themeColor: Int,
     @ColorInt val textColor: Int,
+    val canCancel: Boolean = true,
     val abortDialogConfiguration: AbortDialogConfiguration? = null
 )

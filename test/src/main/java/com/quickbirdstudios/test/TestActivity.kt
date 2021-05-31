@@ -75,7 +75,8 @@ internal class TestActivity : AppCompatActivity() {
                 R.string.abort_dialog_message,
                 R.string.abort_dialog_neutral_message,
                 R.string.abort_dialog_negative_message
-            )
+            ),
+            canCancel = false
         )
 
         surveyView.start(task, configuration)

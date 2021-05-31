@@ -88,6 +88,7 @@ class Header @JvmOverloads constructor(
 
     override fun style(surveyTheme: SurveyTheme) {
         themeColor = surveyTheme.themeColor
+        canCancel = surveyTheme.canCancel
     }
 
     //endregion
