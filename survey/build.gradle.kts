@@ -7,8 +7,10 @@ plugins {
     kotlin("android")
     id("org.jetbrains.kotlin.android.extensions")
     id("com.jfrog.bintray")
+    id("com.github.dcendents.android-maven")
     `maven-publish`
 }
+group = "com.github.andre00nogueira"
 
 androidExtensions { isExperimental = true }
 
